@@ -4,25 +4,25 @@ In my mind, one of the major promise of MacRuby as a development language for Ma
 
 The common compile workflow is:
 
-1- Edit/Save
-2- Compile
-3- Run
-4- Exercize the application to the point under development
-5- Test
-6- Notice a bug
-7- Quit
-8- go to step 1
+1. Edit/Save
+2. Compile
+3. Run
+4. Exercize the application to the point under development
+5. Test
+6. Notice a bug
+7. Quit
+8. go to step 1
 
 Very soon, this workflow loop becomes time-consuming: compile times increase as the application gets bigger, application startup time increase as the application does more, and exercizing the app to the point under development can sometimes take very long to do.
 
 The interpreted workflow is:
 
-1- Run
-2- Exercize the application to the point under development
-3- Test
-4- Notice a bug
-5- Edit
-6- go to step 3
+1. Run
+2. Exercize the application to the point under development
+3. Test
+4. Notice a bug
+5. Edit
+6. go to step 3
 
 So you go from an  8 step loop which includes 3 time intensive steps to a 4 step loop with no time intensive loop.
 
