@@ -2,7 +2,6 @@
 *.xcodeproj/*.pbxuser
 *.o
 xcuserdata
-project.xcworkspace
 .DS_Store
 *.swp
 *~.nib
