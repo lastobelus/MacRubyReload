@@ -1,4 +1,4 @@
-MacRubyReload: dynamic reloading of application source code without rebuilding
+# MacRubyReload: dynamic reloading of application source code without rebuilding
 
 In my mind, one of the major promise of MacRuby as a development language for Mac application programming is to empower the developer to embrace an incremental, dynamic, interpreted workflow loop.
 
@@ -30,7 +30,7 @@ Unfortunately, MacRuby as of version 0.10 doesn't propose this workflow. Instead
 
 This project shows how to implement an interpreted workflow using MacRuby. Hopefully, MacRuby will eventually evolve to include a similar facility in its default Xcode templates.
 
-How to use:
+## How to use:
 
 - Download and run the project
 - Notice a new MacRuby menu, with two items: "Reload Ruby" and "Test"
@@ -48,7 +48,9 @@ How it works:
 
 That's it
 
+## Dependencies
 
-Improvement ideas:
-
-automatic reload using File System Events
+### mrb-fsevents
+- https://github.com/ttilley/mrb-fsevent
+- not registered on rubyforge.org, so you will have to build it & install it from gemfile
+- to do that you will likely need to patch the macruby bundler gem to change references to the gem command in gem_helper.rb to macgem

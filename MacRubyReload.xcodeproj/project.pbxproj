@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A754E46147DCE1F00AEC31C /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A754E45147DCE1F00AEC31C /* MacRuby.framework */; };
 		F67317A31472D6A000E468B7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F67317A21472D6A000E468B7 /* Cocoa.framework */; };
-		F67317A51472D6A000E468B7 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F67317A41472D6A000E468B7 /* MacRuby.framework */; };
 		F67317AE1472D6A000E468B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F67317AC1472D6A000E468B7 /* InfoPlist.strings */; };
 		F67317B01472D6A000E468B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F67317AF1472D6A000E468B7 /* main.m */; };
 		F67317B51472D6A000E468B7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F67317B31472D6A000E468B7 /* MainMenu.xib */; };
@@ -42,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A754E45147DCE1F00AEC31C /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = SDKROOT; };
 		F673179E1472D6A000E468B7 /* MacRubyReload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacRubyReload.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F67317A21472D6A000E468B7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		F67317A41472D6A000E468B7 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
@@ -60,8 +61,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A754E46147DCE1F00AEC31C /* MacRuby.framework in Frameworks */,
 				F67317A31472D6A000E468B7 /* Cocoa.framework in Frameworks */,
-				F67317A51472D6A000E468B7 /* MacRuby.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +72,7 @@
 		F67317931472D6A000E468B7 = {
 			isa = PBXGroup;
 			children = (
+				2A754E45147DCE1F00AEC31C /* MacRuby.framework */,
 				F67317C41472D85C00E468B7 /* ReadMe.markDown */,
 				F67317A91472D6A000E468B7 /* MacRubyReload */,
 				F67317A11472D6A000E468B7 /* Frameworks */,
@@ -361,6 +363,7 @@
 				F67317BF1472D6A000E468B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F67317C01472D6A000E468B7 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
 			isa = XCConfigurationList;
@@ -369,6 +372,7 @@
 				F67317C21472D6A000E468B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

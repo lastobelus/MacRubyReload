@@ -9,18 +9,19 @@
 
 class AppDelegate
     attr_accessor :window
+    
     def applicationDidFinishLaunching(a_notification)
         # Insert code here to initialize your application
     end
     
     def doReloadSource(sender)
-        puts "Reloading MacRuby source code\n";
-        reloadMacRubySource;
+        puts "Reloading MacRuby source code\n"
+        MacrubyDevHud.watchMacrubySource
     end
     
     def doTest(sender)
-        #puts "Hello, Dynamic MacRuby World!\n"
-        puts "Hello, Modified MacRuby World!\n"
+        puts "Hello, fsevent 6 MacRuby World!\n"
+        #puts "Hello, Modified MacRuby World!\n"
     end
 
 end
